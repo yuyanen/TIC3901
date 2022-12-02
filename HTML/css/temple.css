@@ -1,0 +1,19 @@
+.center {
+    width: 1000px;
+    margin:0 auto;
+}
+
+
+
+/* 顶部 B */
+.top {
+    height:47px;
+    background-color:#E9E8E8;
+}
+
+.top .top_c {
+    height: 47px;
+    line-height: 47px;
+}
+
+/* 顶部 E */
