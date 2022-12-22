@@ -147,7 +147,7 @@ h1 {
 }
 
 .banner .left span {
-    float: right;
+    float: left;
 }
 
 .banner .left a {
@@ -157,4 +157,35 @@ h1 {
 
 .banner .left a:hover {
     color: #00b4ff;
+}
+
+.banner .right h2 {
+    height: 48px;
+    background-color: #9bceea;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.banner .right .content {
+    padding: 0 18px;
+    
+}
+
+.banner .right .content dl {
+    padding:12px 0;
+    border-bottom: 2px solid #e5e5e5;
+
+}
+
+.banner .right .content dt {
+    font-size: 16px;
+    color: #fff;
+}
+
+.banner .right .content dd {
+    font-size: 14px;
+    color: #fff;
 }
