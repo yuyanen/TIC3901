@@ -1,121 +1,6 @@
 /* index.css is used to style and layout home page */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-.clearfix:before,.clearfix::after {
-    content: "";
-    display: table;
-}
-.clearfix:after {
-    clear:both;
-}
-
-body {
-    background-color: #f3f5f7;
-}
-
-/* type area */
-.wrapper {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-/* head */
-.header {
-    height:42px;
-    /* background-color: pink; */
-    margin:30px auto;
-}
-
-h1 {
-    float: left;
-}
-
-
-
-/* nav */
-.nav {
-    float: left;
-    margin-left: 70px;
-    height:42px;
-    /* background-color: green; */
-
-}
-
-.nav li {
-    float: left;
-    margin-right: 26px ;
-   
-}
-
-.nav li a {
-    padding: 0 9px;
-    display: block;
-    height: 42px;
-    line-height: 42px;
-    /* border-bottom: 2px solid #00a4ff; */
-
-    font-size: 18px;
-    color: #050505;
-}
-
-.nav li a:hover {
-    border-bottom: 2px solid #00a4ff;
-}
-
-/* search */
-.search {
-    float: left;
-    margin-left: 39px;
-    width: 412px;
-    height: 40px;
-    border: 1px solid #00a4ff;
-}
-
-.search input {
-    float: left;
-    padding-left: 20px;
-    width: 370px;
-    height: 38px;
-    border: 0;
-}
-
-/* control placeholder style */
-.search input::placeholder {
-    font-size: 14px;
-    color: #bfbfbf;
-}
-
-.search button {
-    float: left;
-    width: 40px;
-    height: 40px;
-    background-image: url(../images/btn.png);
-    border: 0;
-}
-
-.user {
-    float: right;
-    margin-right: 20px;
-    height: 42px;
-   
-}
-
- img {
-    vertical-align: middle;
-}
 
 /* banner */
 .banner {
@@ -135,7 +20,7 @@ h1 {
     height: 315px;
     background-color: rgba(0,0,0,0.3);
 
-    line-height: 44px;
+    line-height: 40px;
 }
 
 .banner .right {
@@ -155,6 +40,9 @@ h1 {
     color: #fff;
 }
 
+.banner .left h2 {
+    color: #fff;
+}
 .banner .left a:hover {
     color: #00b4ff;
 }
@@ -303,39 +191,3 @@ h1 {
     height: 160px;
 }
 
-/* copyright */
-.footer {
-    margin-top: 40px;
-    padding-top: 30px;
-    height: 417px;
-    background-color: #fff;
-
-}
-
-.footer .left {
-    float: left;
-}
-
-.footer .left p {
-    margin: 20px 0 10px;
-}
-
-.footer .left a {
-    display: block;
-    width: 120px;
-    height: 36px;
-    text-align: center;
-    line-height: 36px;
-    font-size: 16px;
-    color: #00a4ff;
-    border: 1px solid #00a4ff;
-}
-
-.footer .right {
-    float: right;
-}
-
-.footer .right dl {
-    float: left;
-    margin-left: 120px;
-}
