@@ -1,0 +1,36 @@
+.header li {
+    list-style-type: none;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    
+   
+}
+
+.title h3 {
+  margin-bottom: 20px;
+}
+
+.title .left {
+    float: left;
+    width: 700px;
+   
+}
+
+.title .right {
+    float: right;
+   
+}
+
+.title video {
+    height: 200px;
+}
+
+.title ul {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+

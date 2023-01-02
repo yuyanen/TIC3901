@@ -1,0 +1,25 @@
+.header li {
+    list-style-type: none;
+}
+.course {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+   
+}
+
+.course .left {
+    float: left;
+    width: 850px;
+   
+}
+
+.course .right {
+    float: right;
+    width: 300px;
+    
+}
+
+.course img {
+    height: 200px;
+}

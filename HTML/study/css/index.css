@@ -1,6 +1,8 @@
 /* index.css is used to style and layout home page */
 
-
+li {
+    list-style: none;
+}
 
 /* banner */
 .banner {
